@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Odin Regular';
+    src: url('assets/LarkeRegular.ttf');
+}
+
+* {
+    font-family: 'Odin Regular';
+    margin: 0;
+}
+
+body {
+    background-image: url(assets/map.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+nav {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 6em;
+}
+
+nav a {
+    margin-top: 2vw;
+    text-decoration: underline 0.12em rgba(0, 0, 0, 0);
+    font-size: 2.3em;
+    transition: text-decoration-color 300ms;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration-color: rgba(0, 0, 0, 1);
+}
