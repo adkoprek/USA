@@ -13,7 +13,7 @@ const lakes = [
 ]
 
 const cities_names = {
-    0: "Canbia River",
+    0: "Columbia River",
     1: "Snake River",
     2: "Colorado River",
     3: "Missouri River",
@@ -26,14 +26,14 @@ const cities_names = {
     10: "Hudson River"
 }
 
-i = 0;
+let i = 0;
 
-alrady_guest = []
+let alrady_guest = []
 
-score = 0;
-tries = 0;
-total_gueses = 0;
-river_to_guess = get_random_int(11);
+let score = 0;
+let tries = 0;
+let total_gueses = 0;
+let river_to_guess = get_random_int(11);
 display_lake(river_to_guess);
 
 function display_lake(index) {
