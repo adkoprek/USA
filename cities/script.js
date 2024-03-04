@@ -120,6 +120,8 @@ function get_random_int(max) {
 document.querySelector('img').addEventListener('click', (event) => {
     var x = event.offsetX / event.target.offsetWidth;
     var y = event.offsetY / event.target.offsetHeight;
+
+    console.log({x, y});
     
     clicked_city = get_clicked_item(x, y);
 
